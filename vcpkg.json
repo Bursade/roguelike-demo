@@ -8,11 +8,8 @@
     "sdl2",
     {
       "name": "sdl2",
-      "default-features": false,
-      "features": [
-        "x11"
-      ],
-      "platform": "linux"
+      "default-features": true,
+      "platform": "windows"
     },
     "stb",
     "utf8proc",

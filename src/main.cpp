@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
   params.argv = argv;
   params.vsync = 1;
   params.sdl_window_flags = SDL_WINDOW_RESIZABLE;
-  params.window_title = "Libtcod Template Project";
+  params.window_title = "Rogue Engine";
 
   auto console = tcod::Console{80, 25};
   params.console = console.get();
